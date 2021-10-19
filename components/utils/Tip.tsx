@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useTranslation } from 'next-i18next';
-import useIsInView from '../../hooks/useIsInView';
 
 interface TipProps {
     isShowTip: boolean;
@@ -20,11 +19,10 @@ interface TipProps {
 const Tip = ({
     theme, children, isShowTip, setIsShowTip, title, colorTitle, slug,
 }: TipProps): JSX.Element => {
-    const { ref, opacityEffect } = useIsInView();
     const { t } = useTranslation('common');
 
     return (
-        <div ref={ref} data-cy={slug} className={`my-16 ${opacityEffect}`}>
+        <div data-cy={slug} className="my-16">
             <div className="py-3 mx-auto containerXl">
                 <span className={`text-lg mobile:text-xl font-bold px-4 py-2 rounded-full ${theme.textColor}`}>{t('portfolioTipLabel')}</span>
             </div>
@@ -39,7 +37,7 @@ const Tip = ({
                             <button
                                 type="button"
                                 className={`button ease ${theme.buttonColor}`}
-                                onClick={isShowTip ? null : () => setIsShowTip(true)}
+                                onClick={isShowTip ? undefined : () => setIsShowTip(true)}
                             >
                                 {t('discoverButton')}
                             </button>

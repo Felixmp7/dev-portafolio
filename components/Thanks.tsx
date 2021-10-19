@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import useIsInView from '../hooks/useIsInView';
 
 const theme = {
     textColor: 'text-white',
@@ -10,16 +9,14 @@ const theme = {
 };
 
 const Thanks = (): JSX.Element => {
-    const { ref, opacityEffect } = useIsInView();
     const router = useRouter();
     const isEnglishLanguage = router.locale === 'en';
     const { t } = useTranslation('common');
 
     return (
         <section
-            ref={ref}
             data-cy="thanks"
-            className={`my-16 w-full border-t-4 border-b-4 ${theme.borderColor} ${theme.bg} ${opacityEffect}`}
+            className={`my-16 w-full border-t-4 border-b-4 ${theme.borderColor} ${theme.bg}`}
         >
             <div className="items-center p-5 mx-auto rounded-lg tabletXl:grid tabletXl:grid-cols-2 tabletXl:gap-10 containerXl">
                 <div className="relative flex flex-col items-center justify-center mb-2 mobileLg:mb-0">

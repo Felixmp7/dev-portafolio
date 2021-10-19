@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import useIsInView from '../hooks/useIsInView';
 import Projects from './Projects';
 
 interface ExperienceProps {
@@ -42,7 +41,6 @@ const Experience = ({
     const [isShowProjects, setIsShowProjects] = useState(false);
     const router = useRouter();
     const isEnglishLanguage = router.locale === 'en';
-    const { ref, opacityEffect } = useIsInView();
 
     const seeProjects = ():string => {
         if (isEnglishLanguage) return `See ${projects.length > 1 ? 'Projects' : 'Project'}`;
@@ -50,10 +48,7 @@ const Experience = ({
     };
 
     return (
-        <div
-            ref={ref}
-            className={`px-5 py-10 my-5 border-4 rounded ${theme.borderColor} ${opacityEffect}`}
-        >
+        <div className={`px-5 py-10 my-5 border-4 rounded ${theme.borderColor}`}>
             <div className="flex flex-col items-center laptopXl:flex-row">
                 <div className="flex items-center">
                     <img

@@ -1,7 +1,6 @@
 import AboutCard from './AboutCard';
 import TitleWithLine from './utils/TitleWithLine';
 import histories from './static-data/about.json';
-import useIsInView from '../hooks/useIsInView';
 import useIsEnglishLanguage from '../hooks/useIsEnglishLanguage';
 
 const theme = {
@@ -11,10 +10,9 @@ const theme = {
 
 const About = (): JSX.Element => {
     const isEnglishLanguage = useIsEnglishLanguage();
-    const { ref, opacityEffect } = useIsInView();
 
     return (
-        <section ref={ref} id="about" className={`w-full mobileContainer mx-auto containerXl ${opacityEffect}`}>
+        <section id="about" className="w-full mx-auto mobileContainer containerXl">
             <TitleWithLine
                 text={isEnglishLanguage ? 'About' : 'Acerca'}
                 colorText={isEnglishLanguage ? 'me' : 'de mi'}

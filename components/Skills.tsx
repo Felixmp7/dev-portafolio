@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import TitleWithLine from './utils/TitleWithLine';
 import skills from './static-data/skills.json';
-import useIsInView from '../hooks/useIsInView';
 
 const theme = {
     textColor: 'text-pink-700',
@@ -9,12 +8,11 @@ const theme = {
 };
 
 const Skills = (): JSX.Element => {
-    const { ref, opacityEffect } = useIsInView();
     const router = useRouter();
     const isEnglishLanguage = router.locale === 'en';
 
     return (
-        <section ref={ref} id="skills" className={`mx-auto mobileContainer containerXl ${opacityEffect}`}>
+        <section id="skills" className="mx-auto mobileContainer containerXl">
             <TitleWithLine
                 text={isEnglishLanguage ? 'My' : 'Mis'}
                 colorText={isEnglishLanguage ? 'Skills' : 'Habilidades'}

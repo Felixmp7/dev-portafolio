@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import TitleWithLine from './utils/TitleWithLine';
-import useIsInView from '../hooks/useIsInView';
 
 const theme = {
     textColor: 'text-red-600',
@@ -8,12 +7,11 @@ const theme = {
 };
 
 const Contact = (): JSX.Element => {
-    const { ref, opacityEffect } = useIsInView();
     const router = useRouter();
     const isEnglishLanguage = router.locale === 'en';
 
     return (
-        <section ref={ref} id="contact" className={`w-full mx-auto mt-10 mb-12 tablet:text-2xl mobileContainer containerXl ${opacityEffect}`}>
+        <section id="contact" className="w-full mx-auto mt-10 mb-12 tablet:text-2xl mobileContainer containerXl">
             <TitleWithLine
                 text={isEnglishLanguage ? 'Contact' : 'Envíame'}
                 colorText={isEnglishLanguage ? 'me' : 'un email'}
