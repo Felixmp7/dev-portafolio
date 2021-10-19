@@ -1,0 +1,19 @@
+{
+    "principalBanner": {
+        "welcome": "¡Welcome to my",
+        "portfolio": "Portfolio",
+        "head": "My name is Felix Pacheco, i'm",
+        "yellowText": "Engineer",
+        "greenText": "Front-End Developer",
+        "description": "In my portfolio you'll can see my professional path, education and some interesting things about me, if you wish to know more... let's go",
+        "getStartedButton": "Get Started"
+    },
+    "showMoreButton": "Show more",
+    "training": {
+        "text": "My",
+        "colorText": "education"
+    },
+    "discoverButton": "Discover",
+   "portfolioTipLabel": "Portfolio Tip",
+   "thanks": "for their contributions, suggestions and guidance with the portfolio design and logo creation using:"
+}

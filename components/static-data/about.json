@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "title": "Soy Venezolano",
+        "titleTranslated": "I'm Venezuelan",
+        "svgIcon": "/assets/about/venezuela.svg",
+        "image": "/assets/about/venezolano.jpg",
+        "description": "Nací en Caracas el 30 de Agosto del año 1996",
+        "descriptionTranslated": "I was born in Caracas,  on Agust 30th, 1996",
+        "columnStyles": "h-auto border-custom-purple hover:bg-custom-purple col-span-4 tabletLg:col-span-2"
+    },
+    {
+        "id": 2,
+        "title": "Estudié 14 años en el Colegio San José",
+        "titleTranslated": "I studied 14 years in Colegio San Jose",
+        "svgIcon": "/assets/about/educacion.svg",
+        "image": "/assets/about/colegio-3.jpg",
+        "description": "Desde que existió maternal hasta finalizar el bachillerato",
+        "descriptionTranslated": "Since kindergarten until high school",
+        "columnStyles": "h-48 border-green-700 hover:bg-green-700 col-span-4 tabletLg:col-span-4"
+    },
+    {
+        "id": 3,
+        "title": "Practiqué fútbol hasta los 18 años",
+        "titleTranslated": "I played soccer until 18 years old",
+        "svgIcon": "/assets/about/soccer.svg",
+        "image": "/assets/about/futbol.jpg",
+        "description": "Llegué a participar en el campamento Harina Pan del Real Madrid, llegando hasta la segunda de 3 etapas de clasificación",
+        "descriptionTranslated": "I achieved to participate in the Real Madrid Harina Pan championship, and I classified in the second stage of three",
+        "columnStyles": "h-64 border-pink-700 hover:bg-pink-700 col-span-4 tabletLg:col-span-4"
+    },
+    {
+        "id": 4,
+        "title": "Soy Madridista",
+        "titleTranslated": "I'm Madridista",
+        "svgIcon": "/assets/about/madrid.svg",
+        "image": "/assets/about/bernabeu.jpg",
+        "columnStyles": "h-auto border-custom-yellow hover:bg-custom-yellow col-span-4 tabletLg:col-span-2"
+    },
+    {
+        "id": 5,
+        "title": "Estudié un semestre de Arquitectura",
+        "titleTranslated": "I studied one semester of Architecture",
+        "svgIcon": "/assets/about/architecture.svg",
+        "image": "/assets/about/arquitectura.jpg",
+        "description": "Fue mi primer semestre en una carrera muy interesante y sin dudas exigente pero a pesar de haber aprobado toda las asignaturas... me di cuenta que implicaba un estilo de vida que no era para mi",
+        "descriptionTranslated": "Was my first semester in a university, was interesting and very exigent, I even past all the subjects, but I realized that implied a live style that wasn’t for me",
+        "columnStyles": "h-64 border-orange hover:bg-orange col-span-4 tabletLg:col-span-5"
+    },
+    {
+        "id": 6,
+        "title": "Estudié y me gradué en Ingenieria de Sistemas",
+        "titleTranslated": "I studied and graduated in Systems Engineering",
+        "svgIcon": "/assets/about/university.svg",
+        "image": "/assets/about/montaña.jpg",
+        "description": "En el 2015 decidí comenzar a estudiar Ingeniería De Sistemas y a pesar de no haber programado nunca hasta este punto, me convenció y atrajo el hecho de poder crear soluciones en el presente y para el futuro en Tecnología",
+        "descriptionTranslated": "In 2015 i decided to start to study Systems Engineering, but despite I haven't programmed before,  I was convinced and attract to the fact i could bring solutions to the present and the future of technology",
+        "columnStyles": "h-64 border-react hover:bg-react col-span-4 tabletLg:col-span-7"
+    },
+    {
+        "id": 7,
+        "title": "Comencé a programar a mitad del año 2018",
+        "titleTranslated": "I started to program in the half of 2018",
+        "svgIcon": "/assets/about/code.svg",
+        "image": "/assets/about/code.jpg",
+        "description": "Comencé con el primer curso ofrecido por Udemy el cual me enseñó sobre: HTML, CSS, jQuery, Sass, Git, Responsive Desing y Photoshop",
+        "descriptionTranslated": "I started with the first course offered by Udemy, wich teach me about:  HTML, CSS, jQuery, Sass, Git, Responsive Desing and Photoshop",
+        "columnStyles": "h-64 border-green-700 hover:bg-green-700 col-span-4 tabletLg:col-span-4"
+    },
+    {
+        "id": 8,
+        "title": "Me gustan mucho las películas",
+        "titleTranslated": "I really like movies",
+        "svgIcon": "/assets/about/movies.svg",
+        "image": "/assets/about/cine.jpg",
+        "description": "Me gusta mucho ir al cine o pasar el día viendo buenas peliculas",
+        "descriptionTranslated": "I enjoy a lot going to the cinema or pass the day watching good movies",
+        "columnStyles": "h-auto border-pink-700 hover:bg-pink-700 col-span-4 tabletLg:col-span-3"
+    },
+    {
+        "id": 9,
+        "title": "FanFit",
+        "svgIcon": "/assets/about/fit.svg",
+        "image": "/assets/about/fit.jpg",
+        "description": "Fan de la vida fit, entrenar, salir a correr o manejar bicicleta",
+        "descriptionTranslated": "I’m a Fan of Fitness live style, I like to train, go to run or drive bicycle",
+        "columnStyles": "h-64 border-custom-yellow hover:bg-custom-yellow col-span-2 tabletLg:col-span-2"
+    },
+    {
+        "id": 10,
+        "title": "Actividades al aire libre",
+        "titleTranslated": "Outdoor activities",
+        "svgIcon": "/assets/about/activities.svg",
+        "image": "/assets/about/montana.jpg",
+        "description": "Me encanta el montañismo, pasear por parques, conocer lugares nuevos",
+        "descriptionTranslated": "I love mountaineering, go to the park and know new places",
+        "columnStyles": "h-64 border-react hover:bg-react col-span-2 tabletLg:col-span-3"
+    },
+    {
+        "id": 11,
+        "title": "No le temo a los Desafíos",
+        "titleTranslated": "I’m not afraid of challenges",
+        "svgIcon": "/assets/about/challenges.svg",
+        "image": "/assets/about/desafios.jpg",
+        "description": "He logrado muchas metas a nivel personal por nunca darme por vencido, aunque tenga retos grandes por delante, con constancia y esfuerzo se logran los objetivos",
+        "descriptionTranslated": "I’ve achieved a lot of goals in a personal level, all never giving up, even if I have challenges ahead, with constancy and effort you can accomplish the objectives",
+        "columnStyles": "h-64 border-orange hover:bg-orange col-span-4 tabletLg:col-span-4"
+    },
+    {
+        "id": 12,
+        "title": "Desarrollé mi Tesis de Grado con React Native",
+        "titleTranslated": "I developed my thesis with React Native",
+        "svgIcon": "/assets/about/react.svg",
+        "image": "/assets/about/savephone.png",
+        "description": "Junto con mi compañera Maria Ortiz, desarrollamos un prototipo de una aplicación móvil que se encarga de automatizar el envío de un mensaje de texto mediante el uso de la geolocalización basado en un punto de referencia escogido por el usuario",
+        "descriptionTranslated": "With the help of my partner Maria Ortiz, We developed a mobile app prototype wich is responsible of automating the sending of text messages through the use of geolocation base don a reference point choose by the user",
+        "columnStyles": "h-72 border-custom-purple hover:bg-custom-purple col-span-4 tabletLg:col-span-8"
+    }
+]

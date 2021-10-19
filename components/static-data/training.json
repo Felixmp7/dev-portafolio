@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "institution": "U.E.P Colegio San José",
+        "title": "Bachillerato en Ciencias",
+        "titleTranslated": "Bachelor on Science",
+        "duration": "2000 - 2014",
+        "institutionIcon": "/assets/knowledge/colegio.png",
+        "imageSize": "60px",
+        "theme": {
+            "bgColor": "bg-custom-yellow bg-opacity-25",
+            "textColor": "text-custom-yellow",
+            "borderColor": "border-custom-yellow"
+        },
+        "isFaceToFace": true,
+        "isSpecial": true
+    },
+    {
+        "id": 2,
+        "institution": "Universidad Santa María",
+        "title": "Ingeniería de Sistemas",
+        "titleTranslated": "Systems Engineer",
+        "theme": {
+            "bgColor": "bg-blue-500 bg-opacity-25",
+            "textColor": "text-blue-500",
+            "borderColor": "border-blue-500"
+        },
+        "duration": "2015 - 2020",
+        "imageSize": "85px",
+        "institutionIcon": "/assets/knowledge/usm.png",
+        "isSpecial": true,
+        "isFaceToFace": true
+    },
+    {
+        "id": 3,
+        "institution": "Udemy",
+        "title": "Desarrollo Web",
+        "titleTranslated": "Web Development",
+        "image": "/assets/knowledge/certifications/udemy1.jpg",
+        "theme": {
+            "bgColor": "bg-red-500 bg-opacity-25",
+            "textColor": "text-red-500",
+            "borderColor": "border-red-500"
+        },
+        "duration": "2018",
+        "institutionIcon": "/assets/knowledge/udemy.svg"
+    },
+    {
+        "id": 4,
+        "institution": "Udemy",
+        "title": "Lógica de Programación",
+        "titleTranslated": "Programming Logic",
+        "image": "/assets/knowledge/certifications/udemy2.jpg",
+        "theme": {
+            "bgColor": "bg-red-500 bg-opacity-25",
+            "textColor": "text-red-500",
+            "borderColor": "border-red-500"
+        },
+        "duration": "2018",
+        "institutionIcon": "/assets/knowledge/udemy.svg"
+    },
+    {
+        "id": 5,
+        "institution": "Platzi",
+        "title": "Programación Básica",
+        "titleTranslated": "Basic Programming",
+        "image": "/assets/knowledge/certifications/platzi1.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2018",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 6,
+        "institution": "Platzi",
+        "title": "Git y Github",
+        "titleTranslated": "Git and Github",
+        "image": "/assets/knowledge/certifications/platzi2.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 7,
+        "institution": "Platzi",
+        "title": "Fundamentos de Javascript",
+        "titleTranslated": "Javascript Fundaments",
+        "image": "/assets/knowledge/certifications/platzi3.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 8,
+        "institution": "Platzi",
+        "title": "Desarrollo Web",
+        "titleTranslated": "Web Development",
+        "image": "/assets/knowledge/certifications/platzi4.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 9,
+        "institution": "Platzi",
+        "title": "Responsive Design",
+        "image": "/assets/knowledge/certifications/platzi5.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 10,
+        "institution": "Platzi",
+        "title": "Arquitecto Frontend",
+        "titleTranslated": "Frontend Architect",
+        "image": "/assets/knowledge/certifications/platzi6.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "isSpecial": true,
+        "backgroundColor": "bg-green-500 bg-opacity-25",
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 11,
+        "institution": "Platzi",
+        "title": "React JS",
+        "image": "/assets/knowledge/certifications/platzi7.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 12,
+        "institution": "Platzi",
+        "title": "Redux",
+        "image": "/assets/knowledge/certifications/platzi8.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 13,
+        "institution": "Platzi",
+        "title": "React Router",
+        "image": "/assets/knowledge/certifications/platzi9.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 14,
+        "institution": "Platzi",
+        "title": "React Native",
+        "image": "/assets/knowledge/certifications/platzi10.jpg",
+        "theme": {
+            "bgColor": "bg-green-500 bg-opacity-25",
+            "textColor": "text-green-500",
+            "borderColor": "border-green-500"
+        },
+        "duration": "2019",
+        "institutionIcon": "/assets/knowledge/platzi.svg"
+    },
+    {
+        "id": 15,
+        "institution": "Udemy",
+        "title": "Máster en JS",
+        "titleTranslated": "JS Master",
+        "image": "/assets/knowledge/certifications/master-js.jpg",
+        "theme": {
+            "bgColor": "bg-red-500 bg-opacity-25",
+            "textColor": "text-red-500",
+            "borderColor": "border-red-500"
+        },
+        "duration": "2020-2021",
+        "institutionIcon": "/assets/knowledge/udemy.svg"
+    },
+    {
+        "id": 16,
+        "institution": "Udemy",
+        "title": "React JS + Redux + ES6",
+        "theme": {
+            "bgColor": "bg-red-500 bg-opacity-25",
+            "textColor": "text-red-500",
+            "borderColor": "border-red-500"
+        },
+        "duration": "-",
+        "institutionIcon": "/assets/knowledge/udemy.svg"
+    },
+    {
+        "id": 17,
+        "institution": "Josh Comeau Courses",
+        "title": "CSS for JavaScript Developers",
+        "theme": {
+            "bgColor": "bg-pink-500 bg-opacity-25",
+            "textColor": "text-pink-500",
+            "borderColor": "border-pink-500"
+        },
+        "duration": "-",
+        "institutionIcon": "/assets/josh-comeau.png"
+    }
+]
