@@ -1,35 +1,26 @@
-import useIsSmallScreen from '../hooks/useIsSmallScreen';
-import useIsScrollPosition from '../hooks/useIsScrollPosition';
+import useIsSmallScreen from 'hooks/useIsSmallScreen';
 import Navbar from './Navbar';
 import NavbarMobile from './NavbarMobile';
 
 const navbarItems = [
     {
         id: 1,
-        title: 'Formación',
-        titleTranslated: 'Education',
-        link: 'training',
-        icon: 'fas fa-user-graduate',
-        textColor: 'text-react',
-    },
-    {
-        id: 2,
-        title: 'Experiencia',
-        titleTranslated: 'Experience',
+        title: 'Trabajo',
+        titleTranslated: 'Work',
         link: 'experiences',
-        icon: 'fas fa-file-signature',
+        icon: 'fas fa-code',
         textColor: 'text-custom-yellow',
     },
     {
-        id: 3,
+        id: 2,
         title: 'Habilidades',
         titleTranslated: 'Skills',
         link: 'skills',
-        icon: 'fas fa-code',
+        icon: 'fas fa-toolbox',
         textColor: 'text-pink-700',
     },
     {
-        id: 4,
+        id: 3,
         title: 'Acerca de',
         titleTranslated: 'About me',
         link: 'about',
@@ -37,7 +28,7 @@ const navbarItems = [
         textColor: 'text-custom-purple',
     },
     {
-        id: 5,
+        id: 4,
         title: 'Contacto',
         titleTranslated: 'Contact',
         link: 'contact',
@@ -47,16 +38,15 @@ const navbarItems = [
 ];
 
 const NavbarContainer = (): JSX.Element => {
-    const scrollY = 40;
-    const isSmallScreen = useIsSmallScreen();
-    const isLight = useIsScrollPosition(scrollY);
+    const breakpoint = 680;
+    const isSmallScreen = useIsSmallScreen(breakpoint);
 
     if (isSmallScreen) {
         return <NavbarMobile navbarItems={navbarItems} />;
     }
 
     return (
-        <Navbar navbarItems={navbarItems} isLight={isLight} />
+        <Navbar navbarItems={navbarItems} />
     );
 };
 
