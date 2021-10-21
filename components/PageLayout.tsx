@@ -1,5 +1,6 @@
 import React, { FC, ReactChildren, ReactElement } from 'react';
 import Header from '@widgets/Header';
+import NavbarContainer from '@components/NavbarContainer';
 
 interface IProps {
     children: ReactChildren | ReactElement;
@@ -7,8 +8,9 @@ interface IProps {
 }
 
 const PageLayout: FC<IProps> = ({ children, extraClasses }) => (
-    <div className={`w-full ${extraClasses}`}>
+    <div className={`relative w-full ${extraClasses}`}>
         <Header />
+        <NavbarContainer />
         {children}
     </div>
 );
