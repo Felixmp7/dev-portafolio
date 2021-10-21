@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
                 <body>
                     <Main />
                     <NextScript />
-                    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
                     <script src="https://kit.fontawesome.com/37bd7a10e2.js" crossOrigin="anonymous" />
                 </body>
             </Html>
