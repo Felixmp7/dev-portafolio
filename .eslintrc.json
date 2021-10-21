@@ -87,6 +87,7 @@
         "ignoreRegExpLiterals": true
       }
     ],
+    "jsx-a11y/anchor-is-valid" : "off",
     "import/extensions": "off"
   },
   "globals": {
