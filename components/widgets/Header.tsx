@@ -1,10 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 
-const Header = (): JSX.Element => (
+type Props = { title?: string; }
+
+const Header = ({ title }: Props): JSX.Element => (
     <Head>
-        <title>FP | React Developer</title>
-        <link rel="icon" href="/assets/logo/indigo.png" />
+        <title>{title}</title>
+        <link rel="icon" href="/assets/logo/gray.png" />
         <meta
             name="description"
             content="Portafolio oficial de Desarrollador Front-End con React | Felix Pacheco"
@@ -24,10 +26,14 @@ const Header = (): JSX.Element => (
         <meta property="og:type" content="website" />
         <meta
             property="og:image"
-            content="https://portafolios-devfex.vercel.app/assets/logo/indigo.png"
+            content="https://felix-dev.vercel.app/assets/logo/gray.png"
         />
         <meta property="og:locale" content="es_VE" />
     </Head>
 );
+
+Header.defaultProps = {
+    title: 'FP | React Developer',
+};
 
 export default Header;
