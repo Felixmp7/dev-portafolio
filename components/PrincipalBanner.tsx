@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTranslation } from 'next-i18next';
 import useIsSmallScreen from '../hooks/useIsSmallScreen';
-import Logo from './utils/Logo';
+import Logo from './Logo';
 
 interface BannerObject {
     welcome: string,
