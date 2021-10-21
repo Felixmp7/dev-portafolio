@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0px;
-    background-color: #18153a;
     color: white;
     box-sizing: border-box;
 }
@@ -13,6 +12,19 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.home-bg {
+  background-image: url('./public/assets/home/home-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+@media screen and (max-width: 680px) {
+  .home-bg {
+    background-position: center;
+  }
+}
+
 @layer utilities {
   .containerXl { max-width: 1396px; }
 
@@ -56,22 +68,28 @@ body {
   }
 
   .navbarItem {
-    @apply hidden w-full text-sm font-medium;
+    /* @apply hidden w-full text-sm font-light; */
   }
 
   @screen mobileSm {
     .navbarItem {
-        @apply flex items-center justify-center;
+        /* @apply flex items-center justify-center; */
     }
   }
   @screen mobile {
     .navbarItem {
-        @apply pb-0;
+        /* @apply pb-0; */
+    }
+  }
+
+  @screen tablet {
+    .navbarItem {
+        /* @apply justify-center py-0; */
     }
   }
   @screen tabletXl {
     .navbarItem {
-        @apply p-5 text-lg text-left;
+        /* @apply p-5 text-base text-left; */
     }
   }
   .aboutCard {
@@ -170,12 +188,6 @@ body {
     }
   }
 
-  @screen tablet {
-    .navbarItem {
-        @apply justify-center py-0;
-    }
-  }
-
   .mobileContainer {
     @apply px-4;
   }
@@ -199,11 +211,11 @@ body {
     }
   }
 
-  .changeLanguage {
+  .toggleLangugage {
     @apply px-2 text-center transition-all duration-500 border cursor-pointer rounded-3xl;
   }
 
-  .changeLanguage:hover {
-    @apply text-opacity-100;
+  .toggleLangugage:hover {
+    @apply text-green-900 text-opacity-100 bg-green-400;
   }
 }

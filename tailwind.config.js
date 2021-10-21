@@ -84,7 +84,7 @@ module.exports = {
         },
         backgroundColor: (theme) => ({
             ...theme('colors'),
-            'indigo-1000': '#18153a',
+            'indigo-1000': '#0f0c24',
             'custom-purple': '#582DE8',
             'custom-purple-900': '#4022ad',
             'custom-yellow': '#f2b42a',
@@ -118,8 +118,10 @@ module.exports = {
         screens: {
             mobileXs: '350px',
             mobileSm: '420px',
+            mobileMd: '480px',
             mobile: '520px',
             mobileLg: '600px',
+            mobileXl: '680px',
             tablet: '762px',
             tabletLg: '880px',
             tabletXl: '952px',
