@@ -1,4 +1,10 @@
 {
+    "home": {
+        "title": "Hi, I'm Felix.",
+        "description": "I'm Systems Engineer and React Developer.",
+        "leftButton": "Go to Portfolio",
+        "rightButton": "Go to Github"
+    },
     "principalBanner": {
         "welcome": "¡Welcome to my",
         "portfolio": "Portfolio",

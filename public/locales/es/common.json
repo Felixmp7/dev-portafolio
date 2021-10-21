@@ -1,11 +1,17 @@
 {
+   "home": {
+      "title": "Hola, Soy Felix.",
+      "description": "Soy Ingeniero en Sistemas y Desarrollador React.",
+      "leftButton": "Ir al Portafolio",
+      "rightButton": "Ir al perfil de Github"
+   },
    "principalBanner": {
         "welcome": "¡Bienvenido a mi",
         "portfolio": "Portafolio",
         "head": "Mi nombre es Felix Pacheco, soy",
         "yellowText": "Ingeniero",
         "greenText": "Desarrollador Front-End",
-        "description": "En mi portafolios podrás visualizar mi trayectoria profesional, educación, y algún dato interesante sobre mi, si deseas conocer más... empecemos!",
+        "description": "En mi portafolio podrás visualizar mi trayectoria profesional, educación, y algún dato interesante sobre mi, si deseas conocer más... empecemos!",
         "getStartedButton": "Comenzar"
    },
    "showMoreButton": "Ver más",
