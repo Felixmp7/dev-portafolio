@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import TitleWithLine from './utils/TitleWithLine';
+import TitleWithLine from './widgets/Title';
 import skills from './static-data/skills.json';
 
 const theme = {

@@ -1,5 +1,5 @@
 import AboutCard from './AboutCard';
-import TitleWithLine from './utils/TitleWithLine';
+import TitleWithLine from './widgets/Title';
 import histories from './static-data/about.json';
 import useIsEnglishLanguage from '../hooks/useIsEnglishLanguage';
 

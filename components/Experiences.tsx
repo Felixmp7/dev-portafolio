@@ -1,7 +1,5 @@
 import { useRouter } from 'next/router';
-import TitleWithLine from './utils/TitleWithLine';
-import Experience from './Experience';
-import experienceList from './static-data/experience.json';
+import TitleWithLine from './widgets/Title';
 
 const theme = {
     textColor: 'text-custom-yellow',
@@ -18,9 +16,6 @@ const Experiences = (): JSX.Element => {
                 colorText={isEnglishLanguage ? 'Experience' : 'Experiencia'}
                 theme={theme}
             />
-            {experienceList.map((experience) => (
-                <Experience key={experience.id} {...experience} />
-            ))}
         </section>
     );
 };

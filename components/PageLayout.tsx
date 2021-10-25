@@ -8,7 +8,7 @@ interface IProps {
 }
 
 const PageLayout: FC<IProps> = ({ children, extraClasses }) => (
-    <div className={`relative w-full ${extraClasses}`}>
+    <div className={`relative w-full pb-20 mobileXl:pb-0 ${extraClasses}`}>
         <Header />
         <NavbarContainer />
         {children}

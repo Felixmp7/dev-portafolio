@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import TitleWithLine from './utils/TitleWithLine';
+import TitleWithLine from './widgets/Title';
 import TrainingItem from './TrainingItem';
 import trainingList from './static-data/training.json';
 
