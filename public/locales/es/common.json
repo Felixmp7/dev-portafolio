@@ -5,6 +5,10 @@
       "leftButton": "Ir al Portafolio",
       "rightButton": "Ir al perfil de Github"
    },
+   "works": {
+      "title": "Mi Trabajo",
+      "description": "Proximamente..."
+   },
    "principalBanner": {
         "welcome": "¡Bienvenido a mi",
         "portfolio": "Portafolio",

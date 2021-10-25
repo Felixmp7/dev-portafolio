@@ -17,10 +17,16 @@ body {
   background-image: url('./public/assets/home/home-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+
+.work-bg {
+  background-image: url('./public/assets/work/work-bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 680px) {
-  .home-bg {
+  .home-bg, .work-bg {
     background-position: center;
   }
 }

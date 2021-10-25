@@ -1,6 +1,6 @@
-import PageLayout from '@components/PageLayout';
-import Welcome from '@components/Welcome';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import PageLayout from '@components/PageLayout';
+import Works from '@components/Works';
 import Layout from '@components/Layout';
 
 export const getStaticProps = async ({ locale }: { locale: never }) => ({
@@ -10,9 +10,9 @@ export const getStaticProps = async ({ locale }: { locale: never }) => ({
 });
 
 const Work = (): JSX.Element => (
-    <PageLayout extraClasses="h-screen home-bg">
+    <PageLayout extraClasses="h-screen work-bg">
         <Layout>
-            <Welcome />
+            <Works />
         </Layout>
     </PageLayout>
 );

@@ -5,6 +5,10 @@
         "leftButton": "Go to Portfolio",
         "rightButton": "Go to Github"
     },
+    "works": {
+        "title": "My Work",
+        "description": "Coming soon..."
+    },
     "principalBanner": {
         "welcome": "¡Welcome to my",
         "portfolio": "Portfolio",
