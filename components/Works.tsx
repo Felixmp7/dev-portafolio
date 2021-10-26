@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import useWork from '@hooks/useWork';
-import WorkExperience from './WorkExperience';
+import Job from './Job';
 import Title from './widgets/Title';
 
 const Works = (): JSX.Element => {
@@ -13,7 +13,7 @@ const Works = (): JSX.Element => {
         <section id="works" className="relative flex flex-col items-center justify-center pt-20">
             <Title title={title} color="text-pink-700" />
             {worksSorted.map((work) => (
-                <WorkExperience key={work.id} {...work} />
+                <Job key={work.id} {...work} />
             ))}
         </section>
     );
