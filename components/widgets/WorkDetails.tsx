@@ -1,0 +1,28 @@
+import Image from 'next/image';
+
+type Props = {
+    title: string;
+    detailColor?: string;
+    detail?: string;
+    icon?: string;
+}
+
+const WorkDetails = ({
+    title, detail, icon, detailColor,
+}: Props) => (
+    <div className="flex text-lg text-yellow-300">
+        <span className="mr-1">
+            {`${title} |`}
+            {detail && <span className={`ml-1 font-light ${detailColor}`}>{detail}</span>}
+        </span>
+        {icon && <Image src={icon} alt={detail} width={24} height={24} />}
+    </div>
+);
+
+WorkDetails.defaultProps = {
+    detailColor: 'text-white',
+    detail: null,
+    icon: null,
+};
+
+export default WorkDetails;
