@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { IWork } from 'types';
-import WorkDetails from './widgets/WorkDetails';
+import JobDetails from './widgets/JobDetails';
 
 const Experience: FC<IWork> = ({
     enterpriseIcon,
@@ -36,14 +36,14 @@ const Experience: FC<IWork> = ({
                 </Link>
             </div>
             <div className="w-3/4 mx-auto">
-                <WorkDetails
+                <JobDetails
                     title={inEnglish ? 'Enterprise Description' : 'Descripción de la empresa'}
                     detail={inEnglish ? descriptionTranslated || description : description}
                 />
                 <div className="flex flex-col w-full mx-auto mt-5 tablet:flex-row laptopLg:items-center tablet:justify-evenly">
-                    <WorkDetails title={inEnglish ? 'Location' : 'Ubicación'} icon={regionIcon} />
-                    <WorkDetails title={inEnglish ? 'Period' : 'Periodo'} detail={duration} detailColor="text-green-400" />
-                    <WorkDetails title={inEnglish ? 'Charge' : 'Cargo'} detail={jobTitle} detailColor="text-blue-400" />
+                    <JobDetails title={inEnglish ? 'Location' : 'Ubicación'} icon={regionIcon} />
+                    <JobDetails title={inEnglish ? 'Period' : 'Periodo'} detail={duration} detailColor="text-green-400" />
+                    <JobDetails title={inEnglish ? 'Charge' : 'Cargo'} detail={jobTitle} detailColor="text-blue-400" />
                 </div>
             </div>
         </div>

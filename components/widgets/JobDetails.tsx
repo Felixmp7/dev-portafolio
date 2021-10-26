@@ -7,7 +7,7 @@ type Props = {
     icon?: string;
 }
 
-const WorkDetails = ({
+const JobDetails = ({
     title, detail, icon, detailColor,
 }: Props) => (
     <div className="flex text-lg text-yellow-300">
@@ -19,10 +19,10 @@ const WorkDetails = ({
     </div>
 );
 
-WorkDetails.defaultProps = {
+JobDetails.defaultProps = {
     detailColor: 'text-white',
     detail: null,
     icon: null,
 };
 
-export default WorkDetails;
+export default JobDetails;
