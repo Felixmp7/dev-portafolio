@@ -30,7 +30,7 @@ const Experience: FC<IWork> = ({
                     />
                 </div>
                 <Link href="/">
-                    <a className={`self-center px-4 py-2 mt-6 bg-opacity-30 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
+                    <a className={`self-center px-6 py-2 text-sm uppercase mt-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
                         {inEnglish ? 'See projects' : 'Ver proyectos'}
                     </a>
                 </Link>
