@@ -72,32 +72,6 @@ body {
     transition: all ease-out 1.5s;
     bottom: 0;
   }
-
-  .navbarItem {
-    /* @apply hidden w-full text-sm font-light; */
-  }
-
-  @screen mobileSm {
-    .navbarItem {
-        /* @apply flex items-center justify-center; */
-    }
-  }
-  @screen mobile {
-    .navbarItem {
-        /* @apply pb-0; */
-    }
-  }
-
-  @screen tablet {
-    .navbarItem {
-        /* @apply justify-center py-0; */
-    }
-  }
-  @screen tabletXl {
-    .navbarItem {
-        /* @apply p-5 text-base text-left; */
-    }
-  }
   .aboutCard {
     @apply relative flex flex-col justify-end p-2;
   }
@@ -201,19 +175,6 @@ body {
   @screen desktop {
     .mobileContainer {
       @apply px-0;
-    }
-  }
-  .workDetails {
-    @apply flex flex-col w-full mx-auto mt-5 justify-evenly text-custom-yellow;
-  }
-  @screen laptopLg {
-    .workDetails {
-        @apply items-center w-2/3 text-2xl;
-    }
-  }
-  @screen tablet {
-    .workDetails {
-        @apply flex-row text-xl;
     }
   }
 
