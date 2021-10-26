@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
     "next": "11.1.2",
     "next-i18next": "^8.9.0",
     "react": "17.0.2",
@@ -19,12 +22,17 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
+    "@testing-library/dom": "^8.10.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.1",
     "@types/react": "17.0.30",
     "@types/react-scroll": "^1.8.3",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "autoprefixer": "^10.3.7",
+    "babel-jest": "^27.3.1",
     "babel-plugin-module-resolver": "^4.1.0",
     "cssnano": "^5.0.8",
     "eslint": "^8.0.1",
