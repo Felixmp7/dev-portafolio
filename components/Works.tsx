@@ -7,12 +7,12 @@ const Works = (): JSX.Element => {
     const { t } = useTranslation('common');
     const { title } = t('works', { returnObjects: true });
     const { works } = useWork();
-    const worksSorted = works.sort((a, b) => b.id - a.id);
+    const jobs = works.sort((a, b) => b.id - a.id);
 
     return (
         <section id="works" className="relative flex flex-col items-center justify-center pt-20">
             <Title title={title} color="text-pink-700" />
-            {worksSorted.map((work) => (
+            {jobs.map((work) => (
                 <Job key={work.id} {...work} />
             ))}
         </section>
