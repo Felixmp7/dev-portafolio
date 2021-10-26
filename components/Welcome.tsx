@@ -3,8 +3,10 @@ import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import logo from 'public/assets/logo/gray.png';
 import ToggleLanguage from '@widgets/ToggleLanguage';
+import { useRouter } from 'next/router';
 
 const Welcome = (): JSX.Element => {
+    const { locale, pathname } = useRouter();
     const { t } = useTranslation('common');
     const {
         title, description, leftButton, rightButton,
@@ -29,7 +31,7 @@ const Welcome = (): JSX.Element => {
                     </a>
                 </div>
                 <div className="mt-5 mobileXl:hidden">
-                    <ToggleLanguage />
+                    <ToggleLanguage locale={locale} pathname={pathname} />
                 </div>
             </div>
             <div className="absolute hidden text-center text-indigo-200 text-opacity-50 mobileMd:block bottom-10">
