@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import SocialMedia from '../components/widgets/SocialMedia';
+import SocialMedia from '@components/widgets/SocialMedia';
 
 describe('Social Media Tests', () => {
     it('Should has 3 links', () => {
