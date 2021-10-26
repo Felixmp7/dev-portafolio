@@ -5,6 +5,14 @@ import NavbarMobile from './NavbarMobile';
 const navbarItems = [
     {
         id: 1,
+        title: 'Inicio',
+        titleTranslated: 'Home',
+        link: '/',
+        icon: 'fas fa-home',
+        textColor: 'text-custom-yellow',
+    },
+    {
+        id: 2,
         title: 'Trabajo',
         titleTranslated: 'Work',
         link: '/work',
@@ -12,7 +20,7 @@ const navbarItems = [
         textColor: 'text-custom-yellow',
     },
     {
-        id: 2,
+        id: 3,
         title: 'Habilidades',
         titleTranslated: 'Skills',
         link: '/skills',
@@ -20,7 +28,7 @@ const navbarItems = [
         textColor: 'text-pink-700',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Acerca de',
         titleTranslated: 'About me',
         link: '/about',
@@ -28,7 +36,7 @@ const navbarItems = [
         textColor: 'text-custom-purple',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Contacto',
         titleTranslated: 'Contact',
         link: '/contact',
