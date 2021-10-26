@@ -10,7 +10,7 @@ export const getStaticProps = async ({ locale }: { locale: never }) => ({
 });
 
 const Work = (): JSX.Element => (
-    <PageLayout extraClasses="h-screen work-bg">
+    <PageLayout extraClasses="h-screen work-bg overflow-scroll">
         <Layout>
             <Works />
         </Layout>
