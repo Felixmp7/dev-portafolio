@@ -1,20 +1,21 @@
 import { useTranslation } from 'next-i18next';
+import useWork from '@hooks/useWork';
+import WorkExperience from './WorkExperience';
+import Title from './widgets/Title';
 
 const Works = (): JSX.Element => {
     const { t } = useTranslation('common');
-    const { title, description } = t('works', { returnObjects: true });
+    const { title } = t('works', { returnObjects: true });
+    const { works } = useWork();
+    const worksSorted = works.sort((a, b) => b.id - a.id);
 
     return (
-        <div className="relative flex items-center justify-center h-screen">
-            <div className="text-center">
-                <h1 className="text-4xl font-medium mobileMd:text-8xl mobileXl:text-10xl">{title}</h1>
-                <span className="font-light text-white mobileMd:text-lg text-opacity-90">{description}</span>
-            </div>
-            <div className="absolute hidden text-center text-indigo-200 text-opacity-50 mobileMd:block bottom-10">
-                <i aria-hidden className="mr-2 far fa-copyright" />
-                2021 DevFex
-            </div>
-        </div>
+        <section id="works" className="relative flex flex-col items-center justify-center pt-20">
+            <Title title={title} color="text-pink-700" />
+            {worksSorted.map((work) => (
+                <WorkExperience key={work.id} {...work} />
+            ))}
+        </section>
     );
 };
 
