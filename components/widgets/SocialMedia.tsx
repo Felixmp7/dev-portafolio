@@ -16,7 +16,7 @@ const socialLinks = [
     },
 ];
 
-type Props = { linkClasses: string; }
+type Props = { linkClasses?: string; }
 
 const SocialMedia = ({ linkClasses }: Props) : JSX.Element => (
     <>
@@ -27,5 +27,9 @@ const SocialMedia = ({ linkClasses }: Props) : JSX.Element => (
         ))}
     </>
 );
+
+SocialMedia.defaultProps = {
+    linkClasses: '',
+};
 
 export default SocialMedia;
