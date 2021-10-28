@@ -9,8 +9,8 @@ const Skills = (): JSX.Element => {
 
     return (
         <section id="skills" className="pt-40 pb-20">
-            <div className="mb-20"><Title title={title} color="text-blue-700" /></div>
-            <div className="grid w-full grid-cols-2 gap-5 mt-10 overflow-auto text-2xl mobile:grid-cols-3 tabletLg:gap-10 tabletLg:grid-cols-4 laptopLg:grid-cols-5">
+            <Title title={title} color="text-blue-700" />
+            <div className="grid w-full grid-cols-2 gap-5 mt-20 overflow-auto text-2xl mobile:grid-cols-3 tabletLg:gap-10 tabletLg:grid-cols-4 laptopLg:grid-cols-5">
                 {skills.map(({
                     id, icon, name, textColor,
                 }) => (
