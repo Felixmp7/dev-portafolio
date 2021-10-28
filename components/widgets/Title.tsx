@@ -1,5 +1,5 @@
 type Props = {
-    title?: string;
+    title?: string | string[];
     description?: string;
     color?: string;
 }
