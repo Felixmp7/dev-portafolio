@@ -10,8 +10,8 @@ const Works = (): JSX.Element => {
     const jobs = works.sort((a, b) => b.id - a.id);
 
     return (
-        <section id="works" className="relative flex flex-col items-center justify-center pt-20">
-            <Title title={title} color="text-pink-700" />
+        <section id="works" className="relative flex flex-col items-center justify-center">
+            <div className="pt-40 pb-20"><Title title={title} color="text-pink-700" /></div>
             {jobs.map((work) => (
                 <Job key={work.id} {...work} />
             ))}

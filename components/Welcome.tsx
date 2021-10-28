@@ -21,7 +21,7 @@ const Welcome = (): JSX.Element => {
                 <h1 className="text-4xl font-medium mobileMd:text-8xl mobileXl:text-10xl">{title}</h1>
                 <span className="font-light text-white mobileMd:text-lg text-opacity-90">{description}</span>
                 <div className="flex flex-col items-center justify-center mx-auto mt-6 mobileMd:flex-row">
-                    <Link href="/work">
+                    <Link href="/works">
                         <a className="px-6 py-2 mb-4 text-sm uppercase transition-all duration-500 border border-white rounded-full mobileMd:mb-0 hover:bg-yellow-500 hover:border-opacity-0 ease">
                             {leftButton}
                         </a>

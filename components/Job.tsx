@@ -10,6 +10,7 @@ const Experience: FC<IWork> = ({
     regionIcon,
     duration,
     jobTitle,
+    projects,
     slug,
     description,
     theme: { borderColor, bgColor },
@@ -29,11 +30,13 @@ const Experience: FC<IWork> = ({
                         objectFit="contain"
                     />
                 </div>
-                <Link href="/">
-                    <a className={`self-center px-6 py-2 text-sm uppercase mt-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
-                        {inEnglish ? 'See projects' : 'Ver proyectos'}
-                    </a>
-                </Link>
+                {projects?.length ? (
+                    <Link href={`/works/${slug}`}>
+                        <a className={`self-center px-6 py-2 text-sm uppercase mt-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
+                            {inEnglish ? 'See projects' : 'Ver proyectos'}
+                        </a>
+                    </Link>
+                ) : null}
             </div>
             <div className="w-3/4 mx-auto">
                 <JobDetails

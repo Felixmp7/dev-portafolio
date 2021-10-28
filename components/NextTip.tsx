@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import Tip from './utils/Tip';
+import Tip from './widgets/Tip';
 
 const theme = {
     textColor: 'text-custom-purple',
