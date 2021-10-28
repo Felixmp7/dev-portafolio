@@ -7,24 +7,16 @@
         "jobTitle": "React Developer Jr.",
         "description": "Ezgmz es una firma de desarrollo nativo en la nube.",
         "descriptionTranslated": "Ezgmz is a Cloud Native development firm.",
-        "enterpriseIcon": "/assets/work/enterprises/ezgmz.png",
+        "enterpriseIcon": "/assets/enterprises/ezgmz.png",
         "duration": "2018 - 2019",
+        "specificDuration": "07/2018 - 01/2019",
         "theme": {
             "bgColor": "bg-red-500",
             "textColor": "text-red-500",
             "borderColor": "border-red-500",
             "buttonColor": "red"
         },
-        "projects": [
-            {
-                "id": 1,
-                "title": "Sitio web oficial de Ezgmz",
-                "titleTranslated": "Ezgmz official website",
-                "description": "Aprendiz con React JS",
-                "descriptionTranslated": "React JS padawan",
-                "urlWeb": "https://www.linkedin.com/company/ezgmz/about/"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 2,
@@ -34,8 +26,9 @@
         "jobTitle": "React Native Developer Jr.",
         "description": "Somos un equipo conformado por especialistas en las áreas de programación, diseño y marketing, capacitados para planificar, estructurar y desarrollar proyectos, a través de soluciones integrales orientadas al crecimiento y expansión de tu empresa.",
         "descriptionTranslated": "We are a team made up of specialists in the areas of programming, desing and marketing, trained to plain, structure and develop projects, through comprehensive solutions aimed at the growht and expansion of your company.",
-        "enterpriseIcon": "/assets/work/enterprises/anincubator/logo.png",
+        "enterpriseIcon": "/assets/enterprises/anincubator/logo.png",
         "duration": "2019 - 2020",
+        "specificDuration": "07/2019 - 08/2020",
         "theme": {
             "bgColor": "bg-green-500",
             "textColor": "text-green-500",
@@ -48,13 +41,19 @@
                 "title": "iBeen app",
                 "titleTranslated": "iBeen app",
                 "urlWeb": "https://www.behance.net/anincubatorportfolio",
+                "logo": "/assets/enterprises/anincubator/ibeen-logo.webp",
                 "description": "Desarrollo de aplicación móvil con React Native.",
                 "descriptionTranslated": "React Native app development",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/firebase.svg",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
-                    "ai-1.jpg",
-                    "ai-2.jpg",
-                    "ai-3.jpg",
-                    "ai-4.jpg"
+                    "/assets/enterprises/anincubator/ai-1.jpeg",
+                    "/assets/enterprises/anincubator/ai-2.jpeg",
+                    "/assets/enterprises/anincubator/ai-3.jpeg",
+                    "/assets/enterprises/anincubator/ai-4.jpeg"
                 ]
             }
         ]
@@ -62,13 +61,14 @@
     {
         "id": 3,
         "enterprise": "ServiSenior",
-        "slug": "serviSenior",
+        "slug": "servisenior",
         "regionIcon": "/assets/icons/chile.svg",
-        "jobTitle": "React Developer",
+        "jobTitle": "React Developer sSR",
         "description": "ServiSenior es un emprendimiento de impacto, que colabora con la inclusión laboral de personas mayores de 50 años, mediante una plataforma web que los conecta con personas y empresas, a través de diferentes servicios.",
         "descriptionTranslated": "ServiSenior is an impact undertaking, wich collaborates with the labor inclusion of people over 50, through a web platform that connects them with people and companies, through different services.",
-        "enterpriseIcon": "/assets/work/enterprises/servisenior/logo.png",
+        "enterpriseIcon": "/assets/enterprises/servisenior/logo.png",
         "duration": "2020 - 2021",
+        "specificDuration": "10/2020 - 04/2021",
         "theme": {
             "bgColor": "bg-custom-purple",
             "textColor": "text-custom-purple",
@@ -81,7 +81,15 @@
                 "title": "Sitio oficial de ServiSenior",
                 "titleTranslated": "Official ServiSenior website",
                 "urlWeb": "https://servisenior.cl",
+                "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Reconstrucción del sitio web completo.",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/next.png",
+                    "/assets/skills/styled.png",
+                    "/assets/skills/javascript.png",
+                    "/assets/skills/cypress.svg"
+                ],
                 "descriptionTranslated": "Rebuilding the website.",
                 "screenshots": [
                     "site-1.png",
@@ -99,8 +107,15 @@
                 "title": "Inscripción App de ServiSenior",
                 "titleTranslated": "ServiSenior Inscription App",
                 "urlWeb": "https://ninscripcion.servisenior.cl",
+                "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Refactorización de aplicación web.",
                 "descriptionTranslated": "App refactoring.",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/javascript.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/react-testing-library.png"
+                ],
                 "screenshots": [
                     "inscription-1.png",
                     "inscription-2.png",
@@ -117,8 +132,15 @@
                 "title": "Landing de Empresas de ServiSenior",
                 "titleTranslated": "ServiSenior Enterprise Landing",
                 "urlWeb": "https://servisenior.cl/empresas/",
+                "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Desarrollo de landing.",
                 "descriptionTranslated": "Landing Development",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/next.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
                     "enterprise-1.png",
                     "enterprise-2.png",
@@ -132,8 +154,15 @@
                 "title": "Landing de Despachos Inclusivos de ServiSenior",
                 "titleTranslated": "ServiSenior Inclusive Delivery",
                 "urlWeb": "https://servisenior.cl/empresas/despachos-inclusivos",
+                "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Desarrollo de landing",
                 "descriptionTranslated": "Landing Development",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/next.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
                     "despachos-1.png",
                     "despachos-2.png",
@@ -147,11 +176,12 @@
         "enterprise": "Wadara",
         "slug": "wadara",
         "regionIcon": "/assets/icons/venezuela.svg",
-        "jobTitle": "React Developer",
+        "jobTitle": "React Developer sSR",
         "description": "Wadara es una empresa conformada por profesionales de las áreas de negocio y tecnología de la información, dedicada a proveer productos y servicios que apuntalen la transformación de los procesos de operativos y de negocio involucrados en el sector del seguro.",
         "descriptionTranslated": "Wadara is an enterprise conformed by IT and area business professionals, dedicated to provide products and services that underpin transformation of operational and business processes involved on the insurance sector.",
-        "enterpriseIcon": "/assets/work/enterprises/wadara/logo.png",
+        "enterpriseIcon": "/assets/enterprises/wadara/logo.png",
         "duration": "2021",
+        "specificDuration": "05/2021 - 10/2021",
         "theme": {
             "bgColor": "bg-orange",
             "textColor": "text-orange",
@@ -166,6 +196,12 @@
                 "urlWeb": "https://seleccion-de-personal-616df.web.app",
                 "description": "Desarrollo de Aplicación Web.",
                 "descriptionTranslated": "Web app develop",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/react-testing-library.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
                     "site-1.png",
                     "site-2.png",
@@ -184,6 +220,12 @@
                 "urlWeb": "https://ninscripcion.servisenior.cl",
                 "description": "Desarrollo de Landing Page",
                 "descriptionTranslated": "Landing Page Develop",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/react-testing-library.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
                     "inscription-1.png",
                     "inscription-2.png",
@@ -201,14 +243,40 @@
                 "titleTranslated": "Inspections Assistant",
                 "description": "Desarrollo de app móvil para inspección de vehículos por asegurar.",
                 "descriptionTranslated": "Mobile app develop for vehicles inspection pending for ensure.",
+                "logo": "/assets/enterprises/wadara/piramide.png",
+                "technologies": [
+                    "/assets/skills/react.png",
+                    "/assets/skills/react-testing-library.png",
+                    "/assets/skills/tailwind.svg",
+                    "/assets/skills/node.png",
+                    "/assets/skills/javascript.png"
+                ],
                 "screenshots": [
-                    "enterprise-1.png",
-                    "enterprise-2.png",
-                    "enterprise-3.png",
-                    "enterprise-4.png",
-                    "enterprise-5.png"
+                    "/assets/enterprises/wadara/inspections1.jpg",
+                    "/assets/enterprises/wadara/inspections2.jpg",
+                    "/assets/enterprises/wadara/inspections3.jpg",
+                    "/assets/enterprises/wadara/inspections4.jpg"
                 ]
             }
         ]
+    },
+    {
+        "id": 5,
+        "enterprise": "Brocsoft",
+        "slug": "brocsoft",
+        "regionIcon": "/assets/icons/uruguay.png",
+        "jobTitle": "React Developer sSR",
+        "description": "Somos una compañia ubicada en Montevideo, Uruguay, asociados con CUTI (Camara Urugaya de Tecnologias de la Información). Somos especialista en desarrollo personalizado de software como: CRM, ERP y aplicaciones móviles para todas las plataformas.",
+        "descriptionTranslated": "We are a company located in Montevideo, Uruguay, associated with CUTI (Camara Urugaya de Tecnologias de la Información). We are specialists in custom software development such as: CRM, ERP and mobile applications for all platforms.",
+        "enterpriseIcon": "/assets/enterprises/brocsoft/logo-1.png",
+        "duration": "2021",
+        "specificDuration": "11/2021",
+        "theme": {
+            "bgColor": "bg-blue-400",
+            "textColor": "text-blue-400",
+            "borderColor": "border-blue-400",
+            "buttonColor": "bg-blue-400"
+        },
+        "projects": []
     }
 ]
