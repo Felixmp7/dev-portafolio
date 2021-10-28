@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { IWork } from 'types';
 import JobDetails from './widgets/JobDetails';
 
-const Experience: FC<IWork> = ({
+const Job: FC<IWork> = ({
     enterpriseIcon,
     regionIcon,
     duration,
@@ -53,4 +53,4 @@ const Experience: FC<IWork> = ({
     );
 };
 
-export default Experience;
+export default Job;
