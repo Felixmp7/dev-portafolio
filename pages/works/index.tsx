@@ -3,7 +3,7 @@ import PageLayout from '@components/PageLayout';
 import Works from '@components/Works';
 import Layout from '@components/Layout';
 
-export const getStaticProps = async ({ locale }: { locale: never }) => ({
+export const getStaticProps = async ({ locale }: { locale: string }) => ({
     props: {
         ...await serverSideTranslations(locale, ['common']),
     },
