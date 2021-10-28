@@ -21,6 +21,7 @@ export interface IWork {
     enterpriseIcon: string;
     regionIcon: string;
     duration: string;
+    specificDuration: string;
     jobTitle: string;
     description: string;
     descriptionTranslated: string;
@@ -31,12 +32,14 @@ export interface IWork {
         buttonColor: string;
     };
     projects: Array<{
-        id: number,
-        title: string,
-        titleTranslated: string,
-        urlWeb?: string,
-        screenshots?: Array<string>
-        description: string,
-        descriptionTranslated: string,
+        id: number;
+        title: string;
+        titleTranslated: string;
+        urlWeb?: string;
+        logo?: string;
+        screenshots?: Array<string>;
+        technologies?: Array<string>;
+        description: string;
+        descriptionTranslated: string;
     }>;
 }
