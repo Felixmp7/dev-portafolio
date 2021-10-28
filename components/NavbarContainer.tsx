@@ -15,7 +15,7 @@ const navbarItems = [
         id: 2,
         title: 'Trabajo',
         titleTranslated: 'Work',
-        link: '/work',
+        link: '/works',
         icon: 'fas fa-code',
         textColor: 'text-custom-yellow',
     },
