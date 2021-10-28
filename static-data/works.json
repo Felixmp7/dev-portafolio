@@ -41,6 +41,7 @@
                 "title": "iBeen app",
                 "titleTranslated": "iBeen app",
                 "urlWeb": "https://www.behance.net/anincubatorportfolio",
+                "isMobile": true,
                 "logo": "/assets/enterprises/anincubator/ibeen-logo.webp",
                 "description": "Desarrollo de aplicación móvil con React Native.",
                 "descriptionTranslated": "React Native app development",
@@ -81,6 +82,7 @@
                 "title": "Sitio oficial de ServiSenior",
                 "titleTranslated": "Official ServiSenior website",
                 "urlWeb": "https://servisenior.cl",
+                "isMobile": false,
                 "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Reconstrucción del sitio web completo.",
                 "technologies": [
@@ -92,14 +94,10 @@
                 ],
                 "descriptionTranslated": "Rebuilding the website.",
                 "screenshots": [
-                    "site-1.png",
-                    "site-2.png",
-                    "site-3.png",
-                    "site-4.png",
-                    "site-5.png",
-                    "site-6.png",
-                    "site-7.png",
-                    "site-8.png"
+                    "/assets/enterprises/servisenior/site-1.png",
+                    "/assets/enterprises/servisenior/site-2.png",
+                    "/assets/enterprises/servisenior/site-3.png",
+                    "/assets/enterprises/servisenior/site-4.png"
                 ]
             },
             {
@@ -107,6 +105,7 @@
                 "title": "Inscripción App de ServiSenior",
                 "titleTranslated": "ServiSenior Inscription App",
                 "urlWeb": "https://ninscripcion.servisenior.cl",
+                "isMobile": false,
                 "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Refactorización de aplicación web.",
                 "descriptionTranslated": "App refactoring.",
@@ -117,14 +116,10 @@
                     "/assets/skills/react-testing-library.png"
                 ],
                 "screenshots": [
-                    "inscription-1.png",
-                    "inscription-2.png",
-                    "inscription-3.png",
-                    "inscription-4.png",
-                    "inscription-5.png",
-                    "inscription-6.png",
-                    "inscription-7.png",
-                    "inscription-8.png"
+                    "/assets/enterprises/servisenior/inscription-1.png",
+                    "/assets/enterprises/servisenior/inscription-2.png",
+                    "/assets/enterprises/servisenior/inscription-3.png",
+                    "/assets/enterprises/servisenior/inscription-4.png"
                 ]
             },
             {
@@ -132,6 +127,7 @@
                 "title": "Landing de Empresas de ServiSenior",
                 "titleTranslated": "ServiSenior Enterprise Landing",
                 "urlWeb": "https://servisenior.cl/empresas/",
+                "isMobile": false,
                 "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Desarrollo de landing.",
                 "descriptionTranslated": "Landing Development",
@@ -142,11 +138,10 @@
                     "/assets/skills/javascript.png"
                 ],
                 "screenshots": [
-                    "enterprise-1.png",
-                    "enterprise-2.png",
-                    "enterprise-3.png",
-                    "enterprise-4.png",
-                    "enterprise-5.png"
+                    "/assets/enterprises/servisenior/enterprise-1.png",
+                    "/assets/enterprises/servisenior/enterprise-2.png",
+                    "/assets/enterprises/servisenior/enterprise-3.png",
+                    "/assets/enterprises/servisenior/enterprise-4.png"
                 ]
             },
             {
@@ -154,6 +149,7 @@
                 "title": "Landing de Despachos Inclusivos de ServiSenior",
                 "titleTranslated": "ServiSenior Inclusive Delivery",
                 "urlWeb": "https://servisenior.cl/empresas/despachos-inclusivos",
+                "isMobile": false,
                 "logo": "/assets/enterprises/servisenior/white-logo.png",
                 "description": "Desarrollo de landing",
                 "descriptionTranslated": "Landing Development",
@@ -164,9 +160,9 @@
                     "/assets/skills/javascript.png"
                 ],
                 "screenshots": [
-                    "despachos-1.png",
-                    "despachos-2.png",
-                    "despachos-3.png"
+                    "/assets/enterprises/servisenior/despachos-1.png",
+                    "/assets/enterprises/servisenior/despachos-2.png",
+                    "/assets/enterprises/servisenior/despachos-3.png"
                 ]
             }
         ]
@@ -194,6 +190,7 @@
                 "title": "Aplicación de Entrevistas",
                 "titleTranslated": "Interviews App",
                 "urlWeb": "https://seleccion-de-personal-616df.web.app",
+                "isMobile": false,
                 "description": "Desarrollo de Aplicación Web.",
                 "descriptionTranslated": "Web app develop",
                 "technologies": [
@@ -203,21 +200,18 @@
                     "/assets/skills/javascript.png"
                 ],
                 "screenshots": [
-                    "site-1.png",
-                    "site-2.png",
-                    "site-3.png",
-                    "site-4.png",
-                    "site-5.png",
-                    "site-6.png",
-                    "site-7.png",
-                    "site-8.png"
+                    "/assets/enterprises/wadara/interview1.png",
+                    "/assets/enterprises/wadara/interview2.png",
+                    "/assets/enterprises/wadara/interview3.png",
+                    "/assets/enterprises/wadara/interview4.png"
                 ]
             },
             {
                 "id": 2,
                 "title": "Landing Page Aló 24",
                 "titleTranslated": "Landing Page Aló 24",
-                "urlWeb": "https://ninscripcion.servisenior.cl",
+                "urlWeb": "https://alo24-9fe00.web.app",
+                "isMobile": false,
                 "description": "Desarrollo de Landing Page",
                 "descriptionTranslated": "Landing Page Develop",
                 "technologies": [
@@ -227,14 +221,10 @@
                     "/assets/skills/javascript.png"
                 ],
                 "screenshots": [
-                    "inscription-1.png",
-                    "inscription-2.png",
-                    "inscription-3.png",
-                    "inscription-4.png",
-                    "inscription-5.png",
-                    "inscription-6.png",
-                    "inscription-7.png",
-                    "inscription-8.png"
+                    "/assets/enterprises/wadara/alo1.png",
+                    "/assets/enterprises/wadara/alo2.png",
+                    "/assets/enterprises/wadara/alo3.png",
+                    "/assets/enterprises/wadara/alo4.png"
                 ]
             },
             {
@@ -243,7 +233,7 @@
                 "titleTranslated": "Inspections Assistant",
                 "description": "Desarrollo de app móvil para inspección de vehículos por asegurar.",
                 "descriptionTranslated": "Mobile app develop for vehicles inspection pending for ensure.",
-                "logo": "/assets/enterprises/wadara/piramide.png",
+                "isMobile": true,
                 "technologies": [
                     "/assets/skills/react.png",
                     "/assets/skills/react-testing-library.png",
