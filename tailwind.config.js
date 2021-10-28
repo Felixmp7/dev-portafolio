@@ -135,7 +135,7 @@ module.exports = {
                 97: '97%',
             },
             height: {
-                72: '20rem',
+                '920px': '920px',
             },
             minHeight: {
                 'extra-screen': '120vh',
