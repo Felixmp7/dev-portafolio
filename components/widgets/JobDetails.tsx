@@ -15,7 +15,7 @@ const JobDetails = ({
             {`${title} |`}
             {detail && <span className={`ml-1 font-light ${detailColor}`}>{detail}</span>}
         </span>
-        {icon && <Image src={icon} alt={detail} width={24} height={24} />}
+        {icon && <Image src={icon} alt={detail} width={26} height={24} />}
     </div>
 );
 
