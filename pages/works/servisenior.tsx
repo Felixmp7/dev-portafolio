@@ -11,9 +11,9 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
     },
 });
 
-const slug = 'wadara';
+const slug = 'servisenior';
 
-const Wadara = (): JSX.Element => {
+const ServiSenior = (): JSX.Element => {
     const { getWork } = useWork();
     const job = getWork(slug);
 
@@ -30,4 +30,4 @@ const Wadara = (): JSX.Element => {
     );
 };
 
-export default Wadara;
+export default ServiSenior;
