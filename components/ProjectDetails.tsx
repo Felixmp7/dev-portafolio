@@ -6,7 +6,7 @@ type Props = {
     projectName: string;
     description: string;
     textColor: string;
-    technologies: Array<string>;
+    technologies: Array<string> | undefined;
     slug: string;
     logo?: string;
 }
@@ -38,7 +38,7 @@ const ProjectDetails = ({
                 </div>
                 <div className={`flex items-center text-xl ${textColor}`}>
                     <span className="mr-2">{`${inEnglish ? 'Technologies:' : 'Tecnologías:'}`}</span>
-                    {technologies.map((tec) => (
+                    {technologies?.length && technologies.map((tec) => (
                         <div key={tec} className="flex mr-2">
                             <Image src={tec} alt={slug} width={20} height={20} />
                         </div>
