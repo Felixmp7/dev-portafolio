@@ -80,7 +80,7 @@
     {
         "id": 14,
         "name": "Cypress",
-        "icon": "/assets/icons/cypress.svg",
+        "icon": "/assets/skills/cypress.svg",
         "textColor": "text-white"
     },
     {
@@ -110,7 +110,7 @@
     {
         "id": 19,
         "name": "Typescript",
-        "icon": "/assets/icons/typescript.svg",
+        "icon": "/assets/skills/typescript.svg",
         "textColor": "text-blue-500"
     },
     {
