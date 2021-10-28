@@ -14,6 +14,19 @@ export type NavbarItemsProps = {
     }>;
 }
 
+type Project = {
+    id: number;
+    title: string;
+    titleTranslated: string;
+    urlWeb?: string;
+    logo?: string;
+    screenshots?: Array<string>;
+    technologies?: Array<string>;
+    description: string;
+    isMobile: boolean;
+    descriptionTranslated: string;
+};
+
 export interface IWork {
     id: number;
     enterprise: string;
@@ -31,15 +44,5 @@ export interface IWork {
         borderColor: string;
         buttonColor: string;
     };
-    projects: Array<{
-        id: number;
-        title: string;
-        titleTranslated: string;
-        urlWeb?: string;
-        logo?: string;
-        screenshots?: Array<string>;
-        technologies?: Array<string>;
-        description: string;
-        descriptionTranslated: string;
-    }>;
+    projects: Array<Project>;
 }
