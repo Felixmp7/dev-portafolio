@@ -37,9 +37,9 @@
     },
     {
         "id": 8,
-        "name": "Redux",
-        "icon": "/assets/skills/redux.png",
-        "textColor": "text-redux"
+        "name": "Context API",
+        "icon": "/assets/skills/react.png",
+        "textColor": "text-react"
     },
     {
         "id": 9,
@@ -73,9 +73,9 @@
     },
     {
         "id": 6,
-        "name": "Animations",
-        "icon": "/assets/skills/animation.svg",
-        "textColor": "text-react"
+        "name": "Axios",
+        "icon": "/assets/skills/axios.svg",
+        "textColor": "text-white"
     },
     {
         "id": 14,
