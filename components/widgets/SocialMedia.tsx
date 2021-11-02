@@ -1,4 +1,4 @@
-const socialLinks = [
+export const socialLinks = [
     {
         name: 'Github',
         url: 'https://github.com/Felixmp7',
