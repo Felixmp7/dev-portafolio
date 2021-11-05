@@ -1,6 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import PageLayout from '@components/PageLayout';
-import Layout from '@components/Layout';
+import PageLayout from '@layouts/PageLayout';
+import Layout from '@layouts/Layout';
 import useWork from '@hooks/useWork';
 import ScreenLoader from '@components/widgets/ScreenLoader';
 import Experience from '@components/Experience';

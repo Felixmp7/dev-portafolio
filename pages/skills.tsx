@@ -1,7 +1,7 @@
-import PageLayout from '@components/PageLayout';
+import PageLayout from '@layouts/PageLayout';
 import Skills from '@components/Skills';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Layout from '@components/Layout';
+import Layout from '@layouts/Layout';
 
 export const getStaticProps = async ({ locale }: { locale: never }) => ({
     props: {
