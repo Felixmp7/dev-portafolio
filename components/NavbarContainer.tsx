@@ -35,14 +35,14 @@ const navbarItems = [
         icon: 'fas fa-user',
         textColor: 'text-custom-purple',
     },
-    {
-        id: 5,
-        title: 'Contacto',
-        titleTranslated: 'Contact',
-        link: '/contact',
-        icon: 'fas fa-envelope',
-        textColor: 'text-custom-purple',
-    },
+    // {
+    //     id: 5,
+    //     title: 'Contacto',
+    //     titleTranslated: 'Contact',
+    //     link: '/contact',
+    //     icon: 'fas fa-envelope',
+    //     textColor: 'text-custom-purple',
+    // },
 ];
 
 const NavbarContainer = (): JSX.Element => {
