@@ -11,18 +11,41 @@
    },
    "skills": "Habilidades",
    "principalBanner": {
-        "welcome": "¡Bienvenido a mi",
-        "portfolio": "Portafolio",
-        "head": "Mi nombre es Felix Pacheco, soy",
-        "yellowText": "Ingeniero",
-        "greenText": "Desarrollador Front-End",
-        "description": "En mi portafolio podrás visualizar mi trayectoria profesional, educación, y algún dato interesante sobre mi, si deseas conocer más... empecemos!",
-        "getStartedButton": "Comenzar"
+      "welcome": "¡Bienvenido a mi",
+      "portfolio": "Portafolio",
+      "head": "Mi nombre es Felix Pacheco, soy",
+      "yellowText": "Ingeniero",
+      "greenText": "Desarrollador Front-End",
+      "description": "En mi portafolio podrás visualizar mi trayectoria profesional, educación, y algún dato interesante sobre mi, si deseas conocer más... empecemos!",
+      "getStartedButton": "Comenzar"
    },
    "showMoreButton": "Ver más",
    "training": {
       "text": "Mi",
       "colorText": "formación"
+   },
+   "about": {
+      "title": "Acerca de mi",
+      "description": "Mi nombre es Felix Pacheco, soy Venezolano y nací en Caracas el 30 de Agosto del año 1996. Soy Ingeniero de Sistemas y Desarrollador React. Soy una persona muy honesta, correcta y responsable; me gustan los retos, me gusta aprender y trabajo para ser mejor cada día. Llevo desarrollando aproximadamente 3 años y medio en el área web y aproximadamente 1 año con aplicaciones móviles. Obtuve una beca en Platzi por un año en el 2019 y allí reforcé todos los conocimientos que tenía y mejoré mucho como profesional.",
+      "info": {
+         "nameKey": "Nombre:",
+         "name": "Felix Pacheco",
+         "phoneKey": "Teléfono:",
+         "phone": "+58 4143293929",
+         "emailKey": "Email:",
+         "email": "devfex.19@gmail.com",
+         "ageKey": "Edad:",
+         "age": "25",
+         "frontendExperienceKey": "Experiencia en Front-End:",
+         "frontendExperience": "+3 años",
+         "backendExperienceKey": "Experiencia en Back-End:",
+         "backendExperience": "-",
+         "workModeKey": "Tipo de Trabajo:",
+         "workMode": "Remoto, Híbrido",
+         "addressKey": "Dirección:",
+         "address": "Caracas, Venezuela"
+      },
+      "downloadCV": "Descargar CV"
    },
    "discoverButton": "Descubrir",
    "portfolioTipLabel": "Tip del Portafolio",

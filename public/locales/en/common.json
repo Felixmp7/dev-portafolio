@@ -9,6 +9,29 @@
         "title": "My Work",
         "description": "Coming soon..."
     },
+    "about": {
+        "title": "About me",
+        "description": "My name is Felix Pacheco, I'm Venezuelan and I born at August 30, 1996 in Caracas, Venezuela. I'm a Systems Engineer and React Developer. I'm very honest, correct and responsible person. I like the challenges, l like learn and I work to be better everyday. I have been programming from 3 and a half years ago on web development and about 1 year in mobile development. I got a scolarship in Platzi at 2019 for 1 year to learn and reforce my knowledge and improve a lot how professional.",
+        "info": {
+            "nameKey": "Name:",
+            "name": "Felix Pacheco",
+            "phoneKey": "Phone:",
+            "phone": "+58 4143293929",
+            "emailKey": "Email:",
+            "email": "devfex.19@gmail.com",
+            "ageKey": "Age:",
+            "age": "25",
+            "frontendExperienceKey": "Front-End Experience:",
+            "frontendExperience": "+3 years",
+            "backendExperienceKey": "Back-End Experience:",
+            "backendExperience": "-",
+            "workModeKey": "Work Mode:",
+            "workMode": "Remote, Hybrid",
+            "addressKey": "Address:",
+            "address": "Caracas, Venezuela"
+        },
+        "downloadCV": "Download CV"
+    },
     "skills": "My skills",
     "principalBanner": {
         "welcome": "¡Welcome to my",
@@ -25,6 +48,6 @@
         "colorText": "education"
     },
     "discoverButton": "Discover",
-   "portfolioTipLabel": "Portfolio Tip",
-   "thanks": "for their contributions, suggestions and guidance with the portfolio design and logo creation using:"
+    "portfolioTipLabel": "Portfolio Tip",
+    "thanks": "for their contributions, suggestions and guidance with the portfolio design and logo creation using:"
 }
