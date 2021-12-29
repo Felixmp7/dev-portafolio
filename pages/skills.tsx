@@ -9,7 +9,7 @@ export const getStaticProps = async ({ locale }: { locale: never }) => ({
     },
 });
 
-const SkillsPage = (): JSX.Element => (
+const SkillsPage = () => (
     <PageLayout extraClasses="h-screen work-bg">
         <Layout>
             <Skills />
