@@ -9,7 +9,7 @@ const navbarItems = [
         titleTranslated: 'Home',
         link: '/',
         icon: 'fas fa-home',
-        textColor: 'text-custom-yellow',
+        textColor: 'text-green-500',
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const navbarItems = [
         titleTranslated: 'Work',
         link: '/works',
         icon: 'fas fa-code',
-        textColor: 'text-custom-yellow',
+        textColor: 'text-pink-700',
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const navbarItems = [
         titleTranslated: 'Skills',
         link: '/skills',
         icon: 'fas fa-toolbox',
-        textColor: 'text-pink-700',
+        textColor: 'text-blue-500',
     },
     {
         id: 4,
