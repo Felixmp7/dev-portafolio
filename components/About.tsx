@@ -10,8 +10,8 @@ const About = () => {
     } = t('about', { returnObjects: true });
 
     return (
-        <section id="about" className="w-full mx-auto mobileContainer containerXl">
-            <Title title={title} color="text-custom-purple" className="pt-20 mb-5" />
+        <section id="about" className="pt-40 pb-20">
+            <Title title={title} color="text-custom-purple" className="mb-5" />
             <div className="grid items-center grid-flow-col gap-20">
                 <Image
                     src={me}
