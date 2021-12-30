@@ -11,6 +11,7 @@ const Job: FC<IWork> = ({
     duration,
     jobTitle,
     projects,
+    iconName,
     slug,
     description,
     theme: { borderColor, bgColor },
@@ -44,9 +45,21 @@ const Job: FC<IWork> = ({
                     detail={inEnglish ? descriptionTranslated || description : description}
                 />
                 <div className="flex flex-col w-full mx-auto mt-5 tablet:flex-row laptopLg:items-center tablet:justify-evenly">
-                    <JobDetails title={inEnglish ? 'Location' : 'Ubicación'} icon={regionIcon} />
-                    <JobDetails title={inEnglish ? 'Period' : 'Periodo'} detail={duration} detailColor="text-green-400" />
-                    <JobDetails title={inEnglish ? 'Charge' : 'Cargo'} detail={jobTitle} detailColor="text-blue-400" />
+                    <JobDetails
+                        iconName={iconName}
+                        title={inEnglish ? 'Location' : 'Ubicación'}
+                        icon={regionIcon}
+                    />
+                    <JobDetails
+                        title={inEnglish ? 'Period' : 'Periodo'}
+                        detail={duration}
+                        detailColor="text-green-400"
+                    />
+                    <JobDetails
+                        title={inEnglish ? 'Charge' : 'Cargo'}
+                        detail={jobTitle}
+                        detailColor="text-blue-400"
+                    />
                 </div>
             </div>
         </div>

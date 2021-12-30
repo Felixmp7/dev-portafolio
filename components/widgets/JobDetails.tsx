@@ -5,17 +5,18 @@ type Props = {
     detailColor?: string;
     detail?: string;
     icon?: string;
+    iconName?: string;
 }
 
 const JobDetails = ({
-    title, detail, icon, detailColor,
+    title, detail, icon, detailColor, iconName,
 }: Props) => (
     <div className="flex text-lg text-yellow-300">
         <span className="mr-1">
             {`${title} |`}
             {detail && <span className={`ml-1 font-light ${detailColor}`}>{detail}</span>}
         </span>
-        {icon && <Image src={icon} alt={detail} width={26} height={24} />}
+        {icon && <Image title={iconName} src={icon} alt={detail} width={26} height={24} />}
     </div>
 );
 
@@ -23,6 +24,7 @@ JobDetails.defaultProps = {
     detailColor: 'text-white',
     detail: null,
     icon: null,
+    iconName: undefined,
 };
 
 export default JobDetails;

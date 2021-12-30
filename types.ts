@@ -36,6 +36,7 @@ export interface IWork {
     duration: string;
     specificDuration: string;
     jobTitle: string;
+    iconName: string;
     description: string;
     descriptionTranslated: string;
     theme: {

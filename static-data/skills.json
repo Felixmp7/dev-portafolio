@@ -18,6 +18,12 @@
         "textColor": "text-javascript"
     },
     {
+        "id": 19,
+        "name": "Typescript",
+        "icon": "/assets/skills/typescript.svg",
+        "textColor": "text-blue-500"
+    },
+    {
         "id": 4,
         "name": "Git",
         "icon": "/assets/skills/git.png",
@@ -36,21 +42,9 @@
         "textColor": "text-react"
     },
     {
-        "id": 8,
-        "name": "Context API",
-        "icon": "/assets/skills/react.png",
-        "textColor": "text-react"
-    },
-    {
         "id": 9,
         "name": "React Native",
         "icon": "/assets/skills/react.png",
-        "textColor": "text-react"
-    },
-    {
-        "id": 10,
-        "name": "React Hooks",
-        "icon": "/assets/skills/hooks.png",
         "textColor": "text-react"
     },
     {
@@ -72,12 +66,6 @@
         "textColor": "text-pink-500"
     },
     {
-        "id": 6,
-        "name": "Axios",
-        "icon": "/assets/skills/axios.svg",
-        "textColor": "text-white"
-    },
-    {
         "id": 14,
         "name": "Cypress",
         "icon": "/assets/skills/cypress.svg",
@@ -90,12 +78,6 @@
         "textColor": "text-red-500"
     },
     {
-        "id": 16,
-        "name": "Jest",
-        "icon": "/assets/skills/jest.png",
-        "textColor": "text-orange"
-    },
-    {
         "id": 17,
         "name": "i18",
         "icon": "/assets/skills/i18.png",
@@ -106,12 +88,6 @@
         "name": "API REST",
         "icon": "/assets/skills/api.png",
         "textColor": "text-green-600"
-    },
-    {
-        "id": 19,
-        "name": "Typescript",
-        "icon": "/assets/skills/typescript.svg",
-        "textColor": "text-blue-500"
     },
     {
         "id": 20,
