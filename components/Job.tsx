@@ -31,13 +31,13 @@ const Job: FC<IWork> = ({
                 </div>
                 {projects?.length ? (
                     <Link href={`/works/${slug}`}>
-                        <a className={`self-center px-6 py-2 text-sm uppercase mt-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
+                        <a className={`self-center px-6 py-2 text-xs uppercase my-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 mobileXl:text-sm ease duration-500 transition-all mobileXl:mb-0 ${borderColor} ${bgColor}`}>
                             {jobs.common.seeProjects}
                         </a>
                     </Link>
                 ) : null}
             </div>
-            <div className="w-3/4 mx-auto">
+            <div className="mx-auto mobileXl:w-3/4">
                 <JobDetails
                     title={jobs.common.enterpriseDescription}
                     detail={jobs[slug]}

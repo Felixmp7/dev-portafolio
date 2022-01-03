@@ -11,7 +11,7 @@ type Props = {
 const JobDetails = ({
     title, detail, icon, detailColor, iconName,
 }: Props) => (
-    <div className="flex text-lg text-yellow-300">
+    <div className="flex text-sm text-yellow-300 mobileXl:text-lg">
         <span className="mr-1">
             {`${title} |`}
             {detail && <span className={`ml-1 font-light ${detailColor}`}>{detail}</span>}

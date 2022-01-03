@@ -11,7 +11,7 @@ const Works = (): JSX.Element => {
 
     return (
         <section id="works" className="relative flex flex-col items-center justify-center">
-            <div className="pt-40 pb-20"><Title title={title} color="text-pink-700" /></div>
+            <Title title={title} color="text-pink-700" className="py-10 mobileXl:pt-40 mobileXl:pb-20" />
             {jobs.map((work) => (
                 <Job key={work.id} {...work} />
             ))}

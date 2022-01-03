@@ -10,9 +10,9 @@ const About = () => {
     } = t('about', { returnObjects: true });
 
     return (
-        <section id="about" className="pt-40 pb-20">
+        <section id="about" className="py-10 mobileXl:pt-40 mobileXl:pb-20">
             <Title title={title} color="text-custom-purple" className="mb-5" />
-            <div className="grid items-center grid-flow-col gap-20">
+            <div className="flex flex-col items-center grid-flow-col gap-20 mobileXl:grid">
                 <Image
                     src={me}
                     alt="Felix Pacheco"
@@ -20,11 +20,11 @@ const About = () => {
                     height={240}
                     className="rounded-full"
                 />
-                <p className="text-lg font-light leading-relaxed">
+                <p className="text-sm font-light leading-relaxed mobileXl:text-lg">
                     {description}
                 </p>
             </div>
-            <div className="grid w-1/2 grid-cols-2 p-6 mx-auto my-10 border-2 rounded gap-x-8 justify-items-center border-custom-purple">
+            <div className="grid-cols-2 p-6 mx-auto my-10 border-2 rounded mobileXl:grid mobileXl:w-1/2 gap-x-8 justify-items-center border-custom-purple">
                 <div className="flex flex-col">
                     <b className="my-1">
                         {info.nameKey}
@@ -55,7 +55,7 @@ const About = () => {
                     </b>
                 </div>
             </div>
-            <div className="p-2 text-center">
+            <div className="p-2 mb-4 text-center">
                 <a
                     href="/files/portafolio.pdf"
                     rel="noopener noreferrer"
