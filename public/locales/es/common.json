@@ -7,7 +7,20 @@
    },
    "works": {
       "title": "Mi Trabajo",
-      "description": "Proximamente..."
+      "jobs": {
+         "common": {
+            "seeProjects": "Ver proyectos",
+            "enterpriseDescription": "Descripción de la empresa",
+            "location": "Ubicación",
+            "period": "Periodo",
+            "charge": "Cargo"
+         },
+         "ezgmz": "Ezgmz es una firma de desarrollo nativo en la nube.",
+         "anincubator": "Somos un equipo conformado por especialistas en las áreas de programación, diseño y marketing, capacitados para planificar, estructurar y desarrollar proyectos, a través de soluciones integrales orientadas al crecimiento y expansión de tu empresa.",
+         "servisenior": "Wadara es una empresa conformada por profesionales de las áreas de negocio y tecnología de la información, dedicada a proveer productos y servicios que apuntalen la transformación de los procesos de operativos y de negocio involucrados en el sector del seguro.",
+         "wadara": "Wadara es una empresa conformada por profesionales de las áreas de negocio y tecnología de la información, dedicada a proveer productos y servicios que apuntalen la transformación de los procesos de operativos y de negocio involucrados en el sector del seguro.",
+         "brocsoft": "Somos una compañia ubicada en Montevideo, Uruguay, asociados con CUTI (Camara Urugaya de Tecnologias de la Información). Somos especialista en desarrollo personalizado de software como: CRM, ERP y aplicaciones móviles para todas las plataformas."
+      }
    },
    "skills": "Habilidades",
    "principalBanner": {

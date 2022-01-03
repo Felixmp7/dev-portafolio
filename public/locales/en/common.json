@@ -7,7 +7,20 @@
     },
     "works": {
         "title": "My Work",
-        "description": "Coming soon..."
+        "jobs": {
+            "common": {
+                "seeProjects": "See projects",
+                "enterpriseDescription": "Enterprise description",
+                "location": "Location",
+                "period": "Period",
+                "charge": "Charge"
+            },
+            "ezgmz": "Ezgmz is a Cloud Native development firm.",
+            "anincubator": "We are a team made up of specialists in the areas of programming, desing and marketing, trained to plain, structure and develop projects, through comprehensive solutions aimed at the growht and expansion of your company.",
+            "servisenior": "ServiSenior is an impact undertaking, wich collaborates with the labor inclusion of people over 50, through a web platform that connects them with people and companies, through different services.",
+            "wadara": "Wadara is an enterprise conformed by IT and area business professionals, dedicated to provide products and services that underpin transformation of operational and business processes involved on the insurance sector.",
+            "brocsoft": "We are a company located in Montevideo, Uruguay, associated with CUTI (Camara Urugaya de Tecnologias de la Información). We are specialists in custom software development such as: CRM, ERP and mobile applications for all platforms."
+        }
     },
     "about": {
         "title": "About me",

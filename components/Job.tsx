@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
 import { IWork } from 'types';
 import JobDetails from './widgets/JobDetails';
 
@@ -13,12 +13,10 @@ const Job: FC<IWork> = ({
     projects,
     iconName,
     slug,
-    description,
     theme: { borderColor, bgColor },
-    descriptionTranslated,
 }) => {
-    const { locale } = useRouter();
-    const inEnglish = locale === 'en';
+    const { t } = useTranslation('common');
+    const { jobs } = t('works', { returnObjects: true });
 
     return (
         <div className={`flex flex-col items-center justify-between laptopXl:flex-row px-5 w-full py-10 my-5 border-b-2 border-l-2 rounded border-opacity-80 ${borderColor}`}>
@@ -34,29 +32,29 @@ const Job: FC<IWork> = ({
                 {projects?.length ? (
                     <Link href={`/works/${slug}`}>
                         <a className={`self-center px-6 py-2 text-sm uppercase mt-6 bg-opacity-80 border rounded-full hover:bg-opacity-100 ease duration-500 transition-all ${borderColor} ${bgColor}`}>
-                            {inEnglish ? 'See projects' : 'Ver proyectos'}
+                            {jobs.common.seeProjects}
                         </a>
                     </Link>
                 ) : null}
             </div>
             <div className="w-3/4 mx-auto">
                 <JobDetails
-                    title={inEnglish ? 'Enterprise Description' : 'Descripción de la empresa'}
-                    detail={inEnglish ? descriptionTranslated || description : description}
+                    title={jobs.common.enterpriseDescription}
+                    detail={jobs[slug]}
                 />
                 <div className="flex flex-col w-full mx-auto mt-5 tablet:flex-row laptopLg:items-center tablet:justify-evenly">
                     <JobDetails
                         iconName={iconName}
-                        title={inEnglish ? 'Location' : 'Ubicación'}
+                        title={jobs.common.location}
                         icon={regionIcon}
                     />
                     <JobDetails
-                        title={inEnglish ? 'Period' : 'Periodo'}
+                        title={jobs.common.period}
                         detail={duration}
                         detailColor="text-green-400"
                     />
                     <JobDetails
-                        title={inEnglish ? 'Charge' : 'Cargo'}
+                        title={jobs.common.charge}
                         detail={jobTitle}
                         detailColor="text-blue-400"
                     />

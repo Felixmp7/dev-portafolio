@@ -9,7 +9,7 @@ export const getStaticProps = async ({ locale }: { locale: never }) => ({
     },
 });
 
-const Index = (): JSX.Element => (
+const Index = () => (
     <PageLayout extraClasses="h-screen home-bg">
         <Layout>
             <Welcome />
